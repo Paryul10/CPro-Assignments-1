@@ -30,12 +30,6 @@ void matexp ( long long mat[2][2], long long x)
 			matmultiply (mat, in);
 	}
 }
-/*void ans (long long mat[2][2], const long m)
-{
-	long long ans=(mat[0][0]+ mat[0][1])%m;
-	printf ("%lld\n", ans);
-	return;
-}*/
 
 int main()
 {
